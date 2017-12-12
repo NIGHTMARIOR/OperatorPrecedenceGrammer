@@ -106,7 +106,7 @@ void OPG_Analysis::A()
 		else if (VT_Stack.back().name == "#")
 		{
 			cout << setw(20) << "·ÖÎö³É¹¦£¡";
-			cout << setw(20) << "succeed!";
+			cout << setw(20) << "succeed!" << endl;
 			throw exception();
 		}
 		cout << setw(20) << remains<< endl;

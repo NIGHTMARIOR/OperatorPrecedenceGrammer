@@ -3,6 +3,9 @@
 
 int main()
 {
-	OperatorPrecedenceGrammer OPG;
-	OPG.Run();
+	while (true)
+	{
+		OperatorPrecedenceGrammer OPG;
+		OPG.Run();
+	}
 }
